@@ -1,15 +1,31 @@
 {
-  "name": "jtiuser",
+  "name": "rohansreactnews",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this is a project using React JS to pull news articles from the Twitter API",
+  "main": "main.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "griddle-react": "^0.6.1",
+    "react-bootstrap": "^0.30.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "webpack-dev-server"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanDamani/RohansReactNews.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1"
-  }
+  "bugs": {
+    "url": "https://github.com/RohanDamani/RohansReactNews/issues"
+  },
+  "homepage": "https://github.com/RohanDamani/RohansReactNews#readme"
 }
