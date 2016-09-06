@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Griddle from 'griddle-react'
+import Griddle from 'griddle-react';
 import object from './object'
 
 
